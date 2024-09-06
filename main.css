@@ -7,4 +7,6 @@ body {
   p {
     color: rgb(245, 175, 175);
   }
-  
+  #hi{
+    color: yellow;
+  }
