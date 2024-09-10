@@ -1,10 +1,70 @@
 <!DOCTYPE html>
 <html>
     <head>
-       <title>Form design</title> 
+       <title>Connect with Me</title> 
        <link rel="stylesheet" href="form.css">
     </head>
     <body>
+        <form method="" action="">
+            <table border="" align="left" width="400" bgcolor="white">
+                <caption><b> Contact info </b></caption>
+                <tr>
+                    <th> Name </th>
+                    <td> <input type="text" name="nm" id="nm1" maxlength="30" title="Enter your name" placeholder="Enter your name" requied/>
+                    </td>
+                </tr>
+                <tr>
+                    <th> Salutation </th>
+                    <td>    <input type="radio"/> Mr. 
+                            <input type="radio"/> Sir 
+                            <input type="radio"/> Dr. <br>
+                            <input type="radio"/> Ms. 
+                            <input type="radio"/> Ma'am. 
+                            <input type="radio"/> Mrs. <br>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Enter Contact number</th>
+                    <td><input type="number" placeholder="Contact number with Country code" /> </td>
+                </tr>
+                <tr>
+                    <th>Enter E-Mail ID</th>
+                    <td><input type="email" placeholder="Official E-mail ID" /> </td>
+                </tr>
+                <tr>
+                    <th>Consultation / Support required for</th>
+                    <td><input type="radio" /> Cloud Services <br> 
+                        <input type="radio" /> Devops <br>
+                        <input type="radio" /> Linux Solutions <br> 
+                        <input type="radio" /> Weather Modelling / NWP Forecast <br>
+                        <input type="radio" /> Data Analysis 
+                    </td>
+                    <td> <em><strong> Sub Category </strong></em><br>
+                    <input type="checkbox" class="cloud"/> AWS <br>
+                    <input type="checkbox" class="cloud"/> Azure <br> 
+                    <input type="checkbox" class="Devops"> CI/CD </br>
+                    <input type="checkbox" class="Devops"> Version Control </br>
+                    <input type="checkbox" class="Devops"> Docker </br>
+                    <input type="checkbox" class="Devops"> Kubernetes </br>
+                    <input type="checkbox" class="Devops"> IAAC </br>
+                    <input type="checkbox" class="NWP"> WRF </br>
+                    <input type="checkbox" class="NWP"> GrADS </br>
 
+                </td>
+                </tr>
+                <tr>
+                <th> Appointment (UTC Time) </th>
+                    <td>
+                    <input type="datetime-local">
+                    </td>
+                </tr>
+                <tr> Country
+                    <th> Select Area</th>
+                    <input type=""
+                </tr>
+                
+            </table>
+
+        </form>
     </body>
 </html>
