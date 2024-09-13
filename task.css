@@ -1,0 +1,10 @@
+#top_id {
+    border-color: red;
+    border-width: 2px;
+    height: 100%;
+    width: 00%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
